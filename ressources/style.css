@@ -1,0 +1,35 @@
+html {
+    background-image: url(./images/vinyl.jpg);
+    min-height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.header {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    margin-top: 10rem;
+}
+
+.container {
+    display: flex;
+    width: 50rem;
+    background-color: brown;
+    justify-content: center;
+    align-content: flex-start;
+    margin: 0 auto;
+    margin-top: 5rem;
+    padding: 10rem;
+    border-radius: 10rem;
+    opacity: 0.8;
+}
+
+.container button {
+    opacity: 5;
+    z-index: 5;
+    position: relative;
+    top: -5rem;
+}
